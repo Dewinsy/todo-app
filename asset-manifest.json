@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Dewinsy/todo-app/static/css/main.e5a4e791.chunk.css",
-    "main.js": "/Dewinsy/todo-app/static/js/main.ac3c2916.chunk.js",
-    "main.js.map": "/Dewinsy/todo-app/static/js/main.ac3c2916.chunk.js.map",
+    "main.js": "/Dewinsy/todo-app/static/js/main.36bcf216.chunk.js",
+    "main.js.map": "/Dewinsy/todo-app/static/js/main.36bcf216.chunk.js.map",
     "runtime-main.js": "/Dewinsy/todo-app/static/js/runtime-main.b00bd662.js",
     "runtime-main.js.map": "/Dewinsy/todo-app/static/js/runtime-main.b00bd662.js.map",
-    "static/js/2.7d7fdf06.chunk.js": "/Dewinsy/todo-app/static/js/2.7d7fdf06.chunk.js",
-    "static/js/2.7d7fdf06.chunk.js.map": "/Dewinsy/todo-app/static/js/2.7d7fdf06.chunk.js.map",
+    "static/js/2.acd76122.chunk.js": "/Dewinsy/todo-app/static/js/2.acd76122.chunk.js",
+    "static/js/2.acd76122.chunk.js.map": "/Dewinsy/todo-app/static/js/2.acd76122.chunk.js.map",
     "index.html": "/Dewinsy/todo-app/index.html",
     "static/css/main.e5a4e791.chunk.css.map": "/Dewinsy/todo-app/static/css/main.e5a4e791.chunk.css.map",
-    "static/js/2.7d7fdf06.chunk.js.LICENSE.txt": "/Dewinsy/todo-app/static/js/2.7d7fdf06.chunk.js.LICENSE.txt"
+    "static/js/2.acd76122.chunk.js.LICENSE.txt": "/Dewinsy/todo-app/static/js/2.acd76122.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b00bd662.js",
-    "static/js/2.7d7fdf06.chunk.js",
+    "static/js/2.acd76122.chunk.js",
     "static/css/main.e5a4e791.chunk.css",
-    "static/js/main.ac3c2916.chunk.js"
+    "static/js/main.36bcf216.chunk.js"
   ]
 }
