@@ -15,16 +15,15 @@ function FormTodo({ addTodo }) {
     return (
       <Form onSubmit={handleSubmit}> 
       <Form.Group>
-        <Form.Label><b>Add Todo</b></Form.Label>
         <Form.Control 
         type="text" 
         className="input" 
         value={value} 
         onChange={e => setValue(e.target.value)} 
-        placeholder="Add a new task here" />
+        placeholder="Add a task" />
       </Form.Group>
       <Button variant="primary mb-3" type="submit">
-        Submit
+        Add
       </Button>
     </Form>
     );
