@@ -10,6 +10,7 @@ function FormTodo({ addTodo }) {
       if (!value) return;
       addTodo(value);
       setValue("");
+      if (e.keyCode === 13) return; //prevent enter key from submitting
     };
   
     return (

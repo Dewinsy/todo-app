@@ -48,10 +48,10 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1 className="text-center mb-4">TO-DO TRACKER</h1>
+        <h1 className="text-center mb-4">TASK Manager</h1>
         <Button onClick={deleteAll} variant="outline-danger" className="custom_delete_button">Delete all tasks</Button>
         <FormTodo addTodo={addTodo} />
-        <div>
+        <div className=".container">
           {todos.map((todo, index) => (
             <Card className="custom_card">
               <Card.Body >
