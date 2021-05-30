@@ -17,6 +17,7 @@ function FormTodo({ addTodo }) {
       <Form.Group>
         <Form.Control 
         type="text" 
+        key={Date.now()}
         className="input" 
         value={value} 
         onChange={e => setValue(e.target.value)} 

@@ -15,8 +15,7 @@ function App() {
   ]);
 
   const addTodo = (text) => {
-    const newTodos = [...todos, { text }];
-    newTodos.reverse();    //wierd behaviour!!!!
+    const newTodos = [{ text },...todos ];
     setTodos(newTodos);
   };
 
