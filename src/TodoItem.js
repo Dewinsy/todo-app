@@ -3,9 +3,7 @@ import { Button} from 'react-bootstrap';
 
 function TodoItem({ todo, index, markTodo, removeTodo }) {
     return (
-      <div
-        className="todo"
-      >
+      <div className="todo">
         <span style={{ textDecoration: todo.isDone ? "line-through" : "" }}>{todo.text}</span>
         <div>
           <Button variant="outline-success" onClick={() => markTodo(index)}>✓</Button>{' '}
@@ -16,3 +14,5 @@ function TodoItem({ todo, index, markTodo, removeTodo }) {
   }
 
   export default TodoItem;
+
+  

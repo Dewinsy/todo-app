@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { Button, Form } from 'react-bootstrap';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 
 function FormTodo({ addTodo }) {
     const [value, setValue] = useState("");
@@ -18,7 +17,6 @@ function FormTodo({ addTodo }) {
       <Form.Group>
         <Form.Control 
         type="text" 
-        key={Date.now()}
         className="input" 
         value={value} 
         onChange={e => setValue(e.target.value)} 

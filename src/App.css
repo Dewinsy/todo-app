@@ -1,12 +1,11 @@
 body {
-    padding: 50px;
+    margin-top: 3%;
     background-color: #8b928b;
     font-family: sans-serif;
   }
 
 .custom_card{
-  margin-bottom: 0.5rem;
-  
+  margin-bottom: 2%;
 }
 
 .custom_delete_button{
@@ -14,11 +13,17 @@ body {
   color:white;
   border-color: black;
   margin-left: 65%;
-  margin-bottom: 1rem;
-  width: 9rem;
+  margin-bottom: 2%;
+  width: 35%;
 }
 
 .container{
   width: 35%;
-  
 }
+
+.todo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+

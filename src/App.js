@@ -14,7 +14,7 @@ function App() {
     }
   ]);
 
-  const addTodo = (text) => {
+  const addTodo = text => {
     const newTodos = [{ text },...todos ];
     setTodos(newTodos);
   };
@@ -46,17 +46,17 @@ function App() {
   }, [todos])
 
   return (
-    <div className="app">
+    <div>
       <div className="container">
         <h1 className="text-center mb-4">TASK Manager</h1>
         <Button onClick={deleteAll} variant="outline-danger" className="custom_delete_button">Delete all tasks</Button>
         <FormTodo addTodo={addTodo} />
-        <div className=".container">
+        <div>
           {todos.map((todo, index) => (
             <Card className="custom_card">
               <Card.Body >
                 <TodoItem
-                  key={Date.now()}
+                  key={index}
                   index={index}
                   todo={todo}
                   markTodo={markTodo}
