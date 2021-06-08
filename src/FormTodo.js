@@ -5,11 +5,13 @@ function FormTodo({ addTodo }) {
     const [value, setValue] = useState("");
   
     const handleSubmit = e => {
-      e.preventDefault();
-      if (!value) return;
-      addTodo(value);
-      setValue("");
-      if (e.keyCode === 13) return; //prevent enter key from submitting
+      // e.preventDefault();
+      if (e.keyCode !== 13){
+        e.preventDefault()
+        if (!value) return;
+        addTodo(value);
+        setValue("");
+      }; //prevent enter key from submitting
     };
   
     return (

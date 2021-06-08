@@ -9,19 +9,18 @@ function App() {
   const [todos, setTodos] = useState([
     {
       text: "This is a sample todo",
-      key: Date.now(),
       isDone: false
     }
   ]);
 
-  const addTodo = text => {
+  const addTodo = (text, index) => {
     const newTodos = [{ text },...todos ];
     setTodos(newTodos);
   };
 
   const markTodo = index => {
     const newTodos = [...todos];
-    newTodos[index].isDone = true;
+    newTodos[index].isDone = !newTodos[index].isDone; //enable user to toggle completed tasks
     setTodos(newTodos);
   };
 
@@ -53,8 +52,8 @@ function App() {
         <FormTodo addTodo={addTodo} />
         <div>
           {todos.map((todo, index) => (
-            <Card className="custom_card">
-              <Card.Body >
+            <Card className="custom_card" >
+              <Card.Body style={{ backgroundColor: todo.isDone ? "#98ff98" : "" }}>
                 <TodoItem
                   key={index}
                   index={index}
